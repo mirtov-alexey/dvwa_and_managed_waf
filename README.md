@@ -19,7 +19,9 @@ git clone https://github.com/mirtov-alexey/dvwa_and_managed_waf.git
 - в файле "provider.tf" указать token = var.token (для аутентификациии пользователя) или service_account_key_file = var.token (для аутентификации от service account)
 - перейти в папку с файлами и запустить terraform init 
 ```
-cd ./dvwa_and_managed_waf \
+cd ./dvwa_and_managed_waf/
+```
+```
 terraform init
 ```
 - далее запустить terraform apply
