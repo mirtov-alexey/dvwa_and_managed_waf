@@ -30,11 +30,11 @@ terraform apply
 ```
 ## Результаты установки
 - По результату установки в командной строке будет показан внешний ip адрес:
-![image](https://user-images.githubusercontent.com/85429798/120917860-2e6c5380-c6ba-11eb-87a6-336d6f4f8593.png){:height="36px" width="36px"}
+![image](https://user-images.githubusercontent.com/85429798/120917860-2e6c5380-c6ba-11eb-87a6-336d6f4f8593.png)
 
 
 - Далее при переходе по адресу через браузер вы должны видеть следующее:
-![image](https://user-images.githubusercontent.com/85429798/120917903-5d82c500-c6ba-11eb-802d-9bc4b622ec96.png =250x250)
+![image](https://user-images.githubusercontent.com/85429798/120917903-5d82c500-c6ba-11eb-802d-9bc4b622ec96.png)
 
 - введите логин: admin, пароль: password
 - в самом низу страницы будет кнопка "create /reset database" - нажмите ее
@@ -42,6 +42,6 @@ terraform apply
 - во вкладке "DVWA Security" поменяйте уровень на "low"
 - перейдите во вкладку "SQL Injection" и введите в поле User ID следующее: %' and 1=0 union select null, concat(user,':',password) from users #
 
-![image](https://user-images.githubusercontent.com/85429798/120918060-252fb680-c6bb-11eb-8398-32c98e2f70ca.png =250x250)
+![image](https://user-images.githubusercontent.com/85429798/120918060-252fb680-c6bb-11eb-8398-32c98e2f70ca.png)
 
 
