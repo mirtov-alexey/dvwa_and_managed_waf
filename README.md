@@ -28,3 +28,9 @@ terraform init
 ```
 terraform apply
 ```
+## Результаты установки
+- По результату установки в командной строке будет показан внешний ip адрес:
+![image](https://user-images.githubusercontent.com/85429798/120917860-2e6c5380-c6ba-11eb-87a6-336d6f4f8593.png)
+- Далее при переходе по адресу через браузер вы должны видеть следующее:
+![image](https://user-images.githubusercontent.com/85429798/120917903-5d82c500-c6ba-11eb-802d-9bc4b622ec96.png)
+
